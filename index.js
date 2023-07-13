@@ -1,0 +1,1 @@
+/* File da usare per esercitazioni in javascript ( ed esame ) */

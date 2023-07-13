@@ -1,3 +1,7 @@
-/* npx ts-node index.ts */
+/* File da usare per esercitazione e esame Typescript */
 
-console.log("Hello World!");
+/* 
+    npx ts-node index.ts
+*/
+
+console.log("Hello World!", Math.pow(2, 8));
