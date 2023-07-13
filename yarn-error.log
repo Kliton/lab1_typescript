@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/kliton/.nvm/versions/node/v20.4.0/bin/node /Users/kliton/.nvm/versions/node/v20.4.0/bin/yarn upgrade
+
+PATH: 
+  /Users/kliton/.nvm/versions/node/v20.4.0/bin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/kliton/.nvm/versions/node/v20.4.0/bin:/opt/homebrew/bin:/usr/local/git/bin:/usr/local/git/bin:/usr/local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/kliton/code/unipi/lab1/lab1_typescript/package.json: Expected double-quoted property name in JSON at position 48
+      at JSON.parse (<anonymous>)
+      at /Users/kliton/.nvm/versions/node/v20.4.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/kliton/.nvm/versions/node/v20.4.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/kliton/.nvm/versions/node/v20.4.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "dependencies": {
+      "assert": "^2.0.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
